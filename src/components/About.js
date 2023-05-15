@@ -2,6 +2,7 @@ function About(){
     return(
         <section className="section-format" id="about">
         <h1 className="section-headers">About Me</h1>
+        <img src={require('../portfolio-pic.jpg')} className="about-img"></img>
 
          <p>
              My name is Michael O'Cone and I am studying to be a web developer
