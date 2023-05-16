@@ -15,8 +15,12 @@ function Project(props){
 //</div>
 <div className="col-6">
 <div className="img__wrap">
-  <img className="img__img" src={require('../' + props.image)}></img>
-  <p className="img__description">This image looks super neat.</p>
+  <a href={props.url}><img className="img__img" src={require('../' + props.image)}></img>
+  <div className="img__description">
+   <h2> {props.name}<span><a href={props.github}><i className="fa-brands fa-github fa-2x" ></i></a></span></h2>
+  <h5>{props.tech}</h5>
+  </div>
+  </a>
 </div>
 </div>
     )

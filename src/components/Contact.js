@@ -31,7 +31,12 @@ function Contact(){
       const handleFormSubmit = (e) => {
         // Preventing the default behavior of the form submit (which is to refresh the page)
         e.preventDefault();
-    
+        const trimmedName = name.trim();
+          if(trimmedName == ''){
+          setErrorMessage('Please enter your name');
+          return;
+        }
+
         // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
         if (!validateEmail(email)) {
           setErrorMessage('Email is incorrect');
@@ -39,46 +44,71 @@ function Contact(){
           return;
           // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
         }
+        const trimmedMessage = message.trim();
+        if(trimmedMessage == ''){
+          setErrorMessage('Please enter a message');
+          return;
+        }
 
     
         // If everything goes according to plan, we want to clear out the input after a successful registration.
         setName('');
         setEmail('');
         setMessage('');
+        setErrorMessage('')
       };
     
     return(
  
-        <div>
+        <div className="section-format">
+          {/*<p>Messaging coming soon</p>
+          <p>Please contact me at <a href="mailto:michaeloc@verizon.net">michaeloc@verizon.net</a> or call me at 973-477-1533</p>*/}
+           <div class="col-md-4">
+        <h1>Contact</h1>
+          
         <form className="form">
+        <div class="form-outline mb-3">
+        <label class="form-label" for="form2Example1">Name</label>
           <input
+          className="form-control"
             value={name}
             name="name"
             onChange={handleInputChange}
             type="text"
             placeholder="name"
           />
+          
+          </div>
+          <div class="form-outline mb-3">
+        <label class="form-label" for="form2Example1">Email</label>
           <input
+            className="form-control"
             value={email}
             name="email"
             onChange={handleInputChange}
             type="text"
             placeholder="email"
           />
-            <textarea 
+          </div>
+          <div class="form-outline mb-3">
+        <label class="form-label" for="form2Example1">Message</label>
+            <textarea
+            className="form-control" 
             value={message}
             name="message"
             onChange={handleInputChange}
              rows="4"
              cols="50">
            </textarea>
-          <button type="button" onClick={handleFormSubmit}>Submit</button>
+           </div>
+          <button type="button" className="btn btn-secondary btn-block mb-4" onClick={handleFormSubmit}>Submit</button>
         </form>
         {errorMessage && (
         <div>
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
+      </div>
         </div>
     )
 }
