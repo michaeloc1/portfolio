@@ -15,7 +15,18 @@ body{
 }
 
 .nav-link{
-  color: red;
+  color: white;
+  font-size: 20px;
+}
+
+.nav-link:hover{
+  -webkit-text-stroke: 2px black; /* width and color */
+  color: white;
+}
+
+.navbar-toggler-icon{
+  color: white!important;
+  background-color: white;
 }
 
 .format-card{
@@ -31,9 +42,9 @@ body{
 }
 
 .about-img{
-  width: 300px;
+  width: 200px;
   height: 200x;
-  border-radius: 60%;
+  border-radius: 75%;
 }
 
 footer {
@@ -68,6 +79,7 @@ footer ul{
   height: 300px;
   width: 600px;
   margin: 10px;
+  
 }
 
 .img__description {
@@ -92,4 +104,5 @@ footer ul{
   visibility: visible;
   opacity: 1;
 }
+
 
