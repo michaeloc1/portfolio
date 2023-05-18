@@ -1,7 +1,7 @@
 function About(){
     return(
         <section className="section-format" id="about">
-        <h1 className="section-headers">About Me</h1>
+        <h1 className="section-headers">About</h1>
         <img src={require('../portfolio-pic2.jpg')} className="about-img"></img>
 
          <p>

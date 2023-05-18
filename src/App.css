@@ -34,6 +34,7 @@ body{
 }
 
 .section-format{
+  margin-top: 10px;
   width: 90%;
   height: 100%;
   margin-left: auto;
@@ -43,7 +44,7 @@ body{
 
 .about-img{
   width: 200px;
-  height: 200x;
+  height: 200px;
   border-radius: 75%;
 }
 
@@ -102,7 +103,20 @@ footer ul{
 
 .img__wrap:hover .img__description {
   visibility: visible;
-  opacity: 1;
+  opacity: .8;
+}
+
+.fa-brands{
+  color: white;
+}
+
+.fa-brands:hover{
+  color: darkgrey;
+}
+
+.span-icon{
+  width: 85px !important;
+  color: red;
 }
 
 
