@@ -111,12 +111,10 @@ footer ul{
 }
 
 .fa-brands:hover{
-  color: darkgrey;
+  -webkit-text-stroke: 2px black; /* width and color */
+  color: white;
 }
 
-.span-icon{
-  width: 85px !important;
-  color: red;
-}
+
 
 

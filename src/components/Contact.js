@@ -67,8 +67,8 @@ function Contact() {
         <h1>Contact</h1>
 
         <form className="form">
-          <div class="form-outline mb-3">
-            <label class="form-label" for="form2Example1">Name</label>
+          <div className="form-outline mb-3">
+            <label className="form-label">Name</label>
             <input
               className="form-control"
               value={name}
@@ -79,8 +79,8 @@ function Contact() {
             />
 
           </div>
-          <div ClassName="form-outline mb-3">
-            <label ClassName="form-label" for="form2Example1">Email</label>
+          <div className="form-outline mb-3">
+            <label className="form-label">Email</label>
             <input
               className="form-control"
               value={email}
@@ -90,8 +90,8 @@ function Contact() {
               placeholder="email"
             />
           </div>
-          <div ClassName="form-outline mb-3">
-            <label ClassName="form-label" for="form2Example1">Message</label>
+          <div className="form-outline mb-3">
+            <label className="form-label">Message</label>
             <textarea
               className="form-control"
               value={message}

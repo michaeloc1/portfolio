@@ -1,23 +1,15 @@
 import React from 'react';
-import {Helmet} from "react-helmet";
+//import {Helmet} from "react-helmet";
 
 
 
 
 
 function Header({ currentPage, handlePageChange }){
-    console.log(handlePageChange)
+   // console.log(handlePageChange)
     return(
       <>
- <Helmet>
-  <title>My Portfolio</title>
-<script src="https://kit.fontawesome.com/dcec982f57.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rowdies"></link>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-
-</Helmet>
 <nav className="navbar navbar-expand-lg bg-dark nav-custom">
   <div className="container-fluid">
     <div><h1>Michael O'Cone</h1></div>
@@ -28,10 +20,10 @@ function Header({ currentPage, handlePageChange }){
       <ul className="navbar-nav">
         <li className="nav-item">
             <a
-                className="nav-link"
-                aria-current="page"
+                
                 href="#about"
                 onClick={() => handlePageChange('About')}
+                className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
             >   About Me
             </a>
         </li>

@@ -9,6 +9,19 @@ function Resume(){
             <li>CSS</li>
             <li>Javascript</li>
             <li>React</li>
+            <li>jQuery</li>
+            <li>Bootstrap</li>
+            <li>responsive design</li>
+        </ul>
+        <h3>Front End Skills</h3>
+        <ul>
+            <li>APIs</li>
+            <li>Node</li>
+            <li>Express</li>
+            <li>MySQL Sequelize</li>
+            <li>MongoDB Mongoose</li>
+            <li>Rest</li>
+            <li>GraphQL</li>
         </ul>
        </section>
     )
