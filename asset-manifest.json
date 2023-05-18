@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ca578806.css",
+    "main.js": "/portfolio/static/js/main.9ff6defd.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/react-portfolio.png": "/portfolio/static/media/react-portfolio.a1e6594a6fa71ddd52cd.png",
+    "static/media/myResume.pdf": "/portfolio/static/media/myResume.19a1cfed5a1495085f2c.pdf",
+    "static/media/WeatherForecast.png": "/portfolio/static/media/WeatherForecast.9edaeae6f6b667323950.png",
+    "static/media/header-img.jpg": "/portfolio/static/media/header-img.795125ffeacf617fa699.jpg",
+    "static/media/portfolio.jpg": "/portfolio/static/media/portfolio.43deaf9d8830bf243da6.jpg",
+    "static/media/gray-banner.jpg": "/portfolio/static/media/gray-banner.23b43f761adfb6473468.jpg",
+    "static/media/bw-header.jpg": "/portfolio/static/media/bw-header.1867a4b3f1d3e4471494.jpg",
+    "static/media/TechBlog.png": "/portfolio/static/media/TechBlog.bb4b23d95f8f13828044.png",
+    "static/media/portfolio-pic.jpg": "/portfolio/static/media/portfolio-pic.3326df247e53526f7482.jpg",
+    "static/media/WeatherForecast-resize.jpg": "/portfolio/static/media/WeatherForecast-resize.755aa7b00bfe68b84917.jpg",
+    "static/media/TechBlog-resize.jpg": "/portfolio/static/media/TechBlog-resize.3f488b7b147845f17829.jpg",
+    "static/media/BlockChain.jpg": "/portfolio/static/media/BlockChain.c5f3369b4b6a7e5a1320.jpg",
+    "static/media/MySql.jpg": "/portfolio/static/media/MySql.dc4abb33272cca1cf5ce.jpg",
+    "static/media/JavascriptQuiz.jpg": "/portfolio/static/media/JavascriptQuiz.ea4086e3a48c53df4ce5.jpg",
+    "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/portfolio/index.html",
+    "main.ca578806.css.map": "/portfolio/static/css/main.ca578806.css.map",
+    "main.9ff6defd.js.map": "/portfolio/static/js/main.9ff6defd.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca578806.css",
+    "static/js/main.9ff6defd.js"
+  ]
+}
