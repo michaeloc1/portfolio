@@ -47,13 +47,13 @@ const projects = [
 ]
 
 function Portfolio() {
-  return (
+    return (
     <section className="section-format">
       <h1>Projects</h1>
     <div className="container">
       <div className="row">
-        {projects.map(project => (
-          <Project name={project.name} tech={project.tech} github={project.github} url={project.url} image={project.image} />
+        {projects.map((project, index) => (
+          <Project name={project.name} tech={project.tech} github={project.github} url={project.url} image={project.image} key={index} />
         ))}
       </div>
     </div>

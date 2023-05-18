@@ -46,6 +46,8 @@ body{
   width: 200px;
   height: 200px;
   border-radius: 75%;
+  border: 5px white solid;
+  margin: 10px;
 }
 
 footer {
