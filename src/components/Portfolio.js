@@ -2,6 +2,13 @@ import Project from './Project';
 
 const projects = [
   {
+    name: 'Sypher Link',
+    tech: 'socket.io Express Apollo Graphql',
+    github: 'https://github.com/X-A-gif/SypherLink',
+    url: 'https://floating-fjord-61494.herokuapp.com/',
+    image: 'sypher.png'
+  },
+  {
     name: 'Tech Blog',
     tech: 'Sequelize Express Javascript',
     github: 'https://github.com/michaeloc1/TechBlog',
